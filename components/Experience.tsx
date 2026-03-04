@@ -23,7 +23,7 @@ const experienceData = [
     id: 3,
     company: "Qube Cinema",
     position: "Frontend React Developer",
-    period: "June 2021 — June 2023",
+    period: "2021 — 2023",
     description:
       "Developed and maintained complex user interfaces using React for global cinema software solutions. Focused on state management and modular component architecture.",
   },
@@ -31,7 +31,7 @@ const experienceData = [
     id: 4,
     company: "ArtAds Digital Agency",
     position: "Frontend Web Developer",
-    period: "June 2020 — June 2021",
+    period: "2020 — 2021",
     description:
       "Built dynamic digital advertising platforms and interactive web experiences. Specialized in fast-loading landing pages and custom UI effects.",
   },
@@ -39,7 +39,7 @@ const experienceData = [
     id: 5,
     company: "WIBE",
     position: "Front-end Developer",
-    period: "June 2019 — May 2020",
+    period: "2019 — 2020",
     description:
       "Initial professional experience in website development. Focused on responsive landing pages, cross-browser compatibility, and pixel-perfect UI implementation.",
   },
