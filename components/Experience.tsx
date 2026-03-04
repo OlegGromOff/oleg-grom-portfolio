@@ -2,8 +2,9 @@
 
 import { motion } from "framer-motion";
 
-const experiences = [
+const experienceData = [
   {
+    id: 1,
     company: "Professional Training (Umschulung)",
     position: "Software Engineering & Cloud Architecture",
     period: "2025 — Present",
@@ -11,6 +12,7 @@ const experiences = [
       "Deepening expertise in full-stack development within the German market framework. Focus on scalable cloud solutions, CI/CD pipelines, and advanced React patterns.",
   },
   {
+    id: 2,
     company: "Weldflow",
     position: "Frontend React Developer",
     period: "2023 — 2025",
@@ -18,6 +20,7 @@ const experiences = [
       "Architected high-performance web applications. Lead developer for core UI initiatives, focusing on performance optimization and modernizing the tech stack.",
   },
   {
+    id: 3,
     company: "Qube Cinema",
     position: "Frontend React Developer",
     period: "June 2021 — June 2023",
@@ -25,6 +28,7 @@ const experiences = [
       "Developed and maintained complex user interfaces using React for global cinema software solutions. Focused on state management and modular component architecture.",
   },
   {
+    id: 4,
     company: "ArtAds Digital Agency",
     position: "Frontend Web Developer",
     period: "June 2020 — June 2021",
@@ -32,6 +36,7 @@ const experiences = [
       "Built dynamic digital advertising platforms and interactive web experiences. Specialized in fast-loading landing pages and custom UI effects.",
   },
   {
+    id: 5,
     company: "WIBE",
     position: "Front-end Developer",
     period: "June 2019 — May 2020",
@@ -76,9 +81,11 @@ export default function Experience() {
 
             {/* Content */}
             <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-2">
-              <h3 className="text-xl font-semibold text-white">{item.role}</h3>
+              <h3 className="text-xl font-semibold text-white">
+                {item.position}
+              </h3>
               <span className="text-sm font-medium text-neutral-500 mt-1 md:mt-0">
-                {item.date}
+                {item.period}
               </span>
             </div>
 
