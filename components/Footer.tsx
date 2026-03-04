@@ -28,7 +28,7 @@ export default function Footer() {
           </p>
 
           <a
-            href="mailto:your.email@example.com" // Don't forget to put your real email here!
+            href="mailto:rekops13@gmail.com"
             className="inline-flex items-center gap-3 px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-neutral-200 transition-colors"
           >
             <Mail className="w-5 h-5" />
