@@ -2,31 +2,41 @@
 
 import { motion } from "framer-motion";
 
-// Mock data for your experience and education
-const experienceData = [
+const experiences = [
   {
-    id: 1,
-    role: "Frontend Developer Trainee (Umschulung)",
-    company: "Coding Bootcamp Berlin", // Update with your actual school
-    date: "2024 — Present",
+    company: "Professional Training (Umschulung)",
+    position: "Software Engineering & Cloud Architecture",
+    period: "2025 — Present",
     description:
-      "Intensive training in modern web development. Focusing on React, Next.js, TypeScript, and modern CSS frameworks. Building scalable applications and learning best practices for agile environments.",
+      "Deepening expertise in full-stack development within the German market framework. Focus on scalable cloud solutions, CI/CD pipelines, and advanced React patterns.",
   },
   {
-    id: 2,
-    role: "Freelance Web Developer",
-    company: "Self-Employed",
-    date: "2023 — 2024",
+    company: "Weldflow",
+    position: "Frontend React Developer",
+    period: "2023 — 2025",
     description:
-      "Designed and developed responsive websites for local businesses using HTML, CSS, JavaScript, and CMS platforms. Managed client communication and project delivery.",
+      "Architected high-performance web applications. Lead developer for core UI initiatives, focusing on performance optimization and modernizing the tech stack.",
   },
   {
-    id: 3,
-    role: "Previous Professional Background",
-    company: "Various Companies",
-    date: "2018 — 2023",
+    company: "Qube Cinema",
+    position: "Frontend React Developer",
+    period: "June 2021 — June 2023",
     description:
-      "Successfully transitioned into tech from a different industry, bringing strong soft skills, problem-solving abilities, and a high level of adaptability to new environments.",
+      "Developed and maintained complex user interfaces using React for global cinema software solutions. Focused on state management and modular component architecture.",
+  },
+  {
+    company: "ArtAds Digital Agency",
+    position: "Frontend Web Developer",
+    period: "June 2020 — June 2021",
+    description:
+      "Built dynamic digital advertising platforms and interactive web experiences. Specialized in fast-loading landing pages and custom UI effects.",
+  },
+  {
+    company: "WIBE",
+    position: "Front-end Developer",
+    period: "June 2019 — May 2020",
+    description:
+      "Initial professional experience in website development. Focused on responsive landing pages, cross-browser compatibility, and pixel-perfect UI implementation.",
   },
 ];
 
