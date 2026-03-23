@@ -110,8 +110,30 @@ export default function Home() {
             variants={elementVariantsY}
             className="text-xl md:text-2xl text-neutral-400 font-light max-w-2xl mb-12"
           >
-            Frontend Developer. Building scalable, performant, and modern web
-            interfaces with a strong focus on aesthetics and user experience.
+            <p>Hi, I&apos;m Oleg — a Frontend Developer based in Berlin.</p>
+            <p>
+              I specialize in building fast, scalable, and intuitive web
+              applications. For me, frontend development is the perfect sweet
+              spot between hard logic and creative problem-solving. I don&apos;t
+              just write code: I care deeply about performance, clean
+              architecture, and delivering a seamless user experience.
+            </p>
+            <p>
+              When I&apos;m not optimizing React components or tweaking Webpack
+              configs, I run a blog focused on Technology and Artificial
+              Intelligence. I love diving deep into how modern AI tools are
+              transforming the development process and sharing those practical
+              insights with the tech community.
+            </p>
+            <p>
+              Offline, I&apos;m a huge videography enthusiast (always hunting
+              for the perfect shot and editing footage on my Mac), and a
+              dedicated German learner navigating life in Berlin. Whether
+              it&apos;s discussing the latest Next.js features, exploring new AI
+              models, or just sharing recommendations for a good coffee spot in
+              the city — I&apos;m always open to a great conversation.
+              Let&apos;s connect!
+            </p>
           </motion.p>
 
           {/* Call to Action Button */}
