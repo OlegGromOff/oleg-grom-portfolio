@@ -28,7 +28,7 @@ export default function Footer() {
           </p>
 
           <a
-            href="mailto:rekops13@gmail.com"
+            href="mailto:oleg.gromov.it@gmail.com"
             className="inline-flex items-center gap-3 px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-neutral-200 transition-colors"
           >
             <Mail className="w-5 h-5" />
@@ -80,7 +80,7 @@ export default function Footer() {
               <FaLinkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:rekops13@gmail.com"
+              href="mailto:oleg.gromov.it@gmail.com"
               className="hover:text-white transition-colors"
             >
               <Mail className="w-5 h-5" />

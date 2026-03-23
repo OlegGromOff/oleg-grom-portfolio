@@ -63,7 +63,7 @@ export default function Header() {
           <FaLinkedin className="w-5 h-5" />
         </a>
         <a
-          href="mailto:rekops13@gmail.com"
+          href="mailto:oleg.gromov.it@gmail.com"
           className="hover:text-white transition-colors"
         >
           <Mail className="w-5 h-5" />
