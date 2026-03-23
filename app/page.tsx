@@ -112,7 +112,6 @@ export default function Home() {
           >
             Frontend Developer. Building scalable, performant, and modern web
             interfaces with a strong focus on aesthetics and user experience.
-            Relocating from Berlin.
           </motion.p>
 
           {/* Call to Action Button */}
