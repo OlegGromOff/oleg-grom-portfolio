@@ -111,6 +111,7 @@ export default function Home() {
             className="text-xl md:text-2xl text-neutral-400 font-light max-w-2xl mb-12"
           >
             <p>Hi, I&apos;m Oleg — a Frontend Developer based in Berlin.</p>
+            <br />
             <p>
               I specialize in building fast, scalable, and intuitive web
               applications. For me, frontend development is the perfect sweet
@@ -118,6 +119,7 @@ export default function Home() {
               just write code: I care deeply about performance, clean
               architecture, and delivering a seamless user experience.
             </p>
+            <br />
             <p>
               When I&apos;m not optimizing React components or tweaking Webpack
               configs, I run a blog focused on Technology and Artificial
@@ -125,6 +127,7 @@ export default function Home() {
               transforming the development process and sharing those practical
               insights with the tech community.
             </p>
+            <br />
             <p>
               Offline, I&apos;m a huge videography enthusiast (always hunting
               for the perfect shot and editing footage on my Mac), and a
